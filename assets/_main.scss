@@ -168,7 +168,6 @@ body[dir="rtl"] .book-menu {
 }
 
 .book-page {
-  min-width: $body-min-width;
   flex-grow: 1;
   padding: $padding-16;
 }
@@ -250,7 +249,7 @@ body[dir="rtl"] .book-menu {
 
 .book-toc {
   flex: 0 0 $toc-width;
-  font-size: $font-size-12;
+  font-size: $font-size-14;
 
   .book-toc-content {
     width: $toc-width;
